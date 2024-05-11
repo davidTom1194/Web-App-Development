@@ -1,0 +1,5 @@
+1. Does not open apps on apple devices
+
+2. Does not open forms for volunteering or suggestions
+
+3. Does not open websites/apps on windows
