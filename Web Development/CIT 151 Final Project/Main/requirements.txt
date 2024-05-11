@@ -1,0 +1,81 @@
+Final Project 
+
+
+
+X Requirements for HTML pages. Pick any topic for you project. Example, a place you visited or want to visit. Your html and css documents must be produced using a text processor, such as NotePad or NotePad++ on Windows, or any simple text editor available on Mac. 
+
+X 4 html pages, home page should be named index.html
+
+X Each html page should have comment tag containing your name, date and brief description of the purpose of the web page.
+
+X On each page include the elements (tags) required for a basic HTML5 document, along with reference to any one of the modernizr versions supplied by the textbook. Place the modernizr file in the same folder as your index page and make that file the src for all of your pages.
+
+X HTML pages should have the elements that would be styled as directed below in order for you to get the points for the CSS statements. An external style sheet with appropriate link element in each of the html documents.
+
+X The website must include at least four (4) images of your choice, but they must be (broadly) consistent with the theme ( One of these images will be used as a background image for one of your web pages; one will be used as a marker for an unordered list; the others will serve to add interest to your website. ) You can use more than 4 images. Note: If an image falls under the creative commons category then you can use it freely. If you want to give credit and cite the source of images that has no copyright attached,  you can use it by adding the following statement under the image;
+X     Image by [Photographer name] via [Source link] Copyright-free
+
+X On each page you must use a container div. You must use an article element for the main content. Use fixed-width layout or liquid layout – your choice.
+
+Replace characters with special characters (curly quotation marks, curly apostrophes, em-dashes, etc.)
+
+X Each page should have consistent header, navigation and footer. The footers must include your name, the course number, the course title, and the semester.
+ 
+X Include a skip link on each page.
+
+X You must include an aside element on at least one page, as part of a 2- or 3-column layout.
+
+X Include headings and paragraphs. 
+    X - Each page must include
+        X - an h1 heading, 
+        X - a minimum of two h2 headings,
+        X - and a minimum five (5) paragraphs.
+
+X The website must include at least 
+X    - one ordered list and at least 
+X    - one unordered list; 
+X    - one of these lists must contain a nested list. 
+X    - Lists-as-navigation will not fulfill this requirement.
+
+X One web page should show the example of image map.  ->Click here to download the image you will use for the image Download Click here to download the image you will use for the image- >  
+X -> Here are the coordinates -> 
+X     <area target="" alt="wrcRectangle" title="wrc" href="" coords="0,1,348,255" shape="rect">
+X     <area target="" alt="w3schoolsCircle" title="w3Schools" href="" coords="568,241,186" shape="circle">
+X     <area target="" alt="cssTriangle" title="CSS" href="" coords="348, 284,74,680,615,677" shape="poly">
+X ->Create a page that contains the image and use the coordinates to make each shape clickable. Once the user clicks at a particular shape, it should open a new tab in the browser and link to the website based on the information below,
+X Rectangle shape should link to https://www.w3.org/Links to an external site.
+X Circle shape should link to https://www.w3schools.com/Links to an external site. 
+X The triangle should link to https://www.w3schools.com/css/Links to an external site. 
+
+X One table (minimum of 5 rows, 3 columns) containing a header row and data, as well as caption, thead, tfoot, and tbody elements. Include two examples of merged (vertically and/or horizontally) cells. (Do not use examples from class or the textbook.)
+
+X A form which includes fieldset(s), legend(s), textbox, textarea, radio buttons, selection list, check boxes, reset button and submit button. (Do not use examples from the textbook.) The form does not require you do add any action to the submit button.
+
+
+
+
+Styles.css
+
+X Styles must be contained in an external style sheet styles.css. This will provide consistency in the “look and feel” of your website. Your CSS file must have a clear organization. Use CSS template from class (or another organization which clearly indicates logical groupings). Use comments to identify the groupings. Include your name in comment at beginning of css file.
+
+X Choose colors with good contrast, appropriate to your images and background colors.  Do not use examples from the textbook. 
+
+X Background image and background color for the body.
+
+X Styles for headings (using a display font from Google Fonts) and for body text.
+
+X Use an image as the marker for your unordered list.
+
+X Styles for the header, nav, footer.
+
+X Styles for  aside elements (use aside for 2- or 3-column layout)
+
+X Styles for hyperlinks: link, visited, hover, active.
+
+X Styles for skip links.
+
+X Styles for the table and at least two of its components
+
+X Styles for the form and for at least two of its components
+
+Save all your work and then upload your project website to your “Bellagio.csn.edu” account. Make sure that the uploaded files are not zipped and change the permissions of the files at server so that your website is visible.

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSN Cafe Contact</title>
+    <!---
+        CSN Cafe Contact Page
+        File:     contact.html
+
+
+        Author:   David Tom
+        Date:     May 11, 2024
+        Brief:    This page will show a contact page about CSN's Cafe.
+    --->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="modernizr.custom.40753.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <!---Skip Navigation Button--->
+        <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+        
+        <!---CSN Logo Home button--->
+        <header>
+            <h1>
+                <a href="index.html">
+                    <img src="assets/csn-logo.png" width="213" height="61" alt="CSN Campus Website">
+                </a>
+            </h1>
+            <h2>Contact Us&excl;</h2>
+        </header>
+
+        <!---Navigation List--->
+        <nav class="sitenavigation">
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="photo.html">Photo Library</a></li>
+            </ul>
+        </nav>
+
+        <!---Campus Hours--->
+        <article>
+            <h2>Campus Information</h2>
+
+            <h2>Spring 2024 Hours of Operation</h2>
+            <table border="1">
+                <caption>Hours of Operation and Available Services</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Cafe</th>
+                        <th>Grill</th>
+                        <th>Student Union</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Open 8 AM to 3 PM</td>
+                        <td>Open 8 AM to 2 PM</td>
+                        <td>Open 7 AM to 5 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Open 8 AM to 3 PM</td>
+                        <td>Open 8 AM to 2 PM</td>
+                        <td>Open 7 AM to 5 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Open 8 AM to 3 PM</td>
+                        <td>Open 8 AM to 2 PM</td>
+                        <td>Open 7 AM to 5 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Open 8 AM to 3 PM</td>
+                        <td>Open 8 AM to 2 PM</td>
+                        <td>Open 7 AM to 5 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td colspan="2">Closed</td>
+                        <td>Open 7 AM to 5 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Weekends</td>
+                        <td colspan="3">Closed</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Remember, weekends are closed&excl;</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </article>
+
+        <!---Contact Us Form--->
+        <article>
+            <h2>Contact Us</h2>
+            <p>If you have any questions&comma; comments&comma; or need further information&comma; please fill out the form below and we&apos;ll get back to you as soon as possible&period;</p>
+
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name&colon;</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email&colon;</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="age">Age&colon;</label>
+                    <input type="number" id="age" name="age">
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <p>Please select your meal preference&colon;</p>
+                    <label><input type="radio" name="meal" value="vegetarian"> Vegetarian</label>
+                    <label><input type="radio" name="meal" value="non-vegetarian"> Non-Vegetarian</label>
+                    <label><input type="radio" name="meal" value="vegan"> Vegan</label>
+        
+                    <p>Additional Options:</p>
+                    <label><input type="checkbox" name="option" value="gluten-free"> Gluten Free</label>
+                    <label><input type="checkbox" name="option" value="nut-free"> Nut Free</label>
+        
+                    <label for="location">Preferred Campus&colon;</label>
+                    <select id="location" name="location">
+                        <option value="charleston">Charleston</option>
+                        <option value="henderson">Henderson</option>
+                        <option value="north-las-vegas">North Las Vegas</option>
+                    </select>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="message">Message&colon;</label>
+                    <textarea id="message" name="message" required></textarea>
+                </fieldset>
+        
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear</button>
+            </form>
+        </article>
+
+        <!---Locations and Contact Information--->
+        <aside>
+            <h2>Locations and Contact Information</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Charleston Campus</th>
+                        <th>Henderson Campus</th>
+                        <th>North Las Vegas Campus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6375 W. Charleston Blvd.</td>
+                        <td>700 College Dr.</td>
+                        <td>3200 East Cheyenne Ave.</td>
+                    </tr>
+                    <tr>
+                        <td>Las Vegas, NV 89146</td>
+                        <td>Henderson, NV 89002</td>
+                        <td>North Las Vegas, NV 89030</td>
+                    </tr>
+                    <tr>
+                        <td>Tel: 702-651-5000</td>
+                        <td>Tel: 702-651-3000</td>
+                        <td>Tel: 702-651-4000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+
+        <!---Example Shape Map--->
+        <map name="example-map">
+            <area shape="rect" coords="0,1,348,255" href="https://www.w3.org/" target="_blank" alt="W3C">
+            <area shape="circle" coords="568,241,186" href="https://www.w3schools.com/" target="_blank" alt="W3Schools">
+            <area shape="poly" coords="348,284,74,680,615,677" href="https://www.w3schools.com/css/" target="_blank" alt="CSS">
+        </map>
+        <img src="assets/shapes.png" usemap="#example-map" alt="Clickable shapes">
+        
+        <!---Footer Comment--->
+        <footer>
+            <p>David Tom &VerticalSeparator; CIT 151 &VerticalSeparator; Spring 2024</p>
+        </footer>
+    </div>
+</body>
+
+</html>

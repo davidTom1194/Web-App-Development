@@ -1,0 +1,175 @@
+/* 
+   CSN Cafe style sheet 
+   Filename:   styles.css
+
+   Author:     David Tom
+   Date:       May 11, 2024
+   Style sheet for the CSN Cafe's webpages
+   */
+
+/* Basic Setup */
+body {
+    background-image: url('assets/hn_union_2.jpg');   /* Background image for the body */
+    background-position: center;
+    font-family: 'Lato', sans-serif;                  /* Lato font for body text */
+    color: #333;                                    /* Dark grey text color for contrast */
+}
+
+.container {
+    max-width: 1200px;                                /* Maximum width of the content */
+    margin: 0 auto;                                   /* Center the content */
+    padding: 20px;
+    background-color: #f4f4f4;                      /* Light grey background for better readability */
+}
+
+.container ul {
+    list-style-image: url('assets/marker.jpg');
+}
+
+/* Skip Navigation Link */
+.skipnavigation a {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #ff6700;                      /* Bright color for visibility */
+    color: white;
+    padding: 8px;
+    transition: top 0.3s;
+}
+
+.skipnavigation a:focus {
+    top: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #a3a8ae;                      /* Dark blue background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation */
+.sitenavigation ul {
+    list-style: none;                               /* Remove default list styling */
+    text-align: center;
+    padding: 0;
+}
+
+.sitenavigation li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sitenavigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #007bff;                      /* Bootstrap primary blue */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sitenavigation a:hover,
+.sitenavigation a:focus,
+.sitenavigation a:active {
+    background-color: #0056b3;
+}
+
+/* Article and Main Content Styles */
+article h2 {
+    color: #0056b3;                               /* Matching the header */
+    font-family: 'Lato', sans-serif;                /* Consistent font usage */
+}
+
+article p {
+    line-height: 1.6;                               /* Improve readability */
+}
+
+/* Aside for Campus Locations */
+aside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);          /* Three columns for each campus */
+    gap: 10px;
+    padding: 20px;
+}
+
+aside table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+aside th,
+aside td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styling for tables */
+table th {
+    background-color: #007bff;                      /* Header background */
+    color: white;
+}
+
+table td {
+    background-color: #f8f9fa;                      /* Light background for data cells */
+}
+
+/* Image styles */
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styles for hyperlinks */
+a {
+    color: #007bff;
+}
+
+a:hover,
+a:focus {
+    color: #0056b3;
+}
