@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-04-30T01:15:24.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MU4tJtA3AjOj06vr12p8" version="24.3.1" type="device">
+  <diagram name="Page-1" id="t2ZZUc1QnQqHmHowmj_l">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ECsy7AGQ4PSlcjzneTNv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xkeRzev8_Ip0TK-ElHHa-1" target="xkeRzev8_Ip0TK-ElHHa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsy7AGQ4PSlcjzneTNv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="xkeRzev8_Ip0TK-ElHHa-1" target="xkeRzev8_Ip0TK-ElHHa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsy7AGQ4PSlcjzneTNv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xkeRzev8_Ip0TK-ElHHa-1" target="xkeRzev8_Ip0TK-ElHHa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsy7AGQ4PSlcjzneTNv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xkeRzev8_Ip0TK-ElHHa-1" target="xkeRzev8_Ip0TK-ElHHa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xkeRzev8_Ip0TK-ElHHa-1" value="Home Page&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Introduction: Describe and entice users to want to eat at the College of Southern Nevada&#39;s Cafe.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="330" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsy7AGQ4PSlcjzneTNv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="xkeRzev8_Ip0TK-ElHHa-2" target="xkeRzev8_Ip0TK-ElHHa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsy7AGQ4PSlcjzneTNv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="xkeRzev8_Ip0TK-ElHHa-2" target="xkeRzev8_Ip0TK-ElHHa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xkeRzev8_Ip0TK-ElHHa-2" value="Photo Gallery&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Food and drinks offered by the institution&#39;s Cafe menu.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="550" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xkeRzev8_Ip0TK-ElHHa-3" value="External Links&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CSN&#39;s Food Service Website:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://www.csn.edu/food-service&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="280" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xkeRzev8_Ip0TK-ElHHa-4" value="External Links&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Directions to Henderson Campus:&lt;/div&gt;&lt;div&gt;https://www.csn.edu/about-us/campus-locations/henderson-campus&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="390" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsy7AGQ4PSlcjzneTNv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="xkeRzev8_Ip0TK-ElHHa-5" target="xkeRzev8_Ip0TK-ElHHa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xkeRzev8_Ip0TK-ElHHa-5" value="Contact Me/Us:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CSN&#39;s About Me including information based on myself - the author of the website&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="625" y="600" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xkeRzev8_Ip0TK-ElHHa-6" value="Information&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Cafe Menu including foods and drinks based on dates from CSN&#39;s Calendar.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="580" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xkeRzev8_Ip0TK-ElHHa-7" value="David Tom" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="180" y="270" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xkeRzev8_Ip0TK-ElHHa-8" value="CIT 151 - Final Project Plan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="180" y="230" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECsy7AGQ4PSlcjzneTNv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.548;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xkeRzev8_Ip0TK-ElHHa-1" target="xkeRzev8_Ip0TK-ElHHa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
